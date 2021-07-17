@@ -1,0 +1,15 @@
+.sidebar__layout {
+  // width: 100%;
+  margin-top: 1rem;
+  // max-width: 200px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: rgb(29, 161, 242);
+    background-color: rgba(29, 161, 242, 0.1);
+  }
+}
