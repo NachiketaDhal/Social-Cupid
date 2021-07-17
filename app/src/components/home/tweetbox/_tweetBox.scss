@@ -1,0 +1,65 @@
+.tweetbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+
+  &__avatar {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  &__input {
+    flex: 1;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid rgb(50, 50, 50);
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__file-upload {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4.5rem;
+    .file {
+      label {
+        display: flex;
+        align-items: center;
+        svg {
+          color: rgb(29, 161, 242);
+          cursor: pointer;
+          width: 27px;
+          height: auto;
+        }
+      }
+      input[type='file'] {
+        display: none;
+      }
+    }
+  }
+
+  &__btn {
+    background-color: rgb(29, 161, 242);
+    padding: 0.8rem 1.1rem;
+    border-radius: 2rem;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: rgb(18, 137, 211);
+    }
+  }
+}

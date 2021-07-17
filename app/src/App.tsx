@@ -1,10 +1,10 @@
 import React from 'react';
 
-import SideBar from './components/sidebar/SideBar';
-import './App.css';
+import Home from './components/home/Home';
+import './App.scss';
 
 function App() {
-  return <SideBar />;
+  return <Home />;
 }
 
 export default App;
