@@ -1,0 +1,57 @@
+.register {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  &__filelabel {
+    text: #fff;
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: rgb(29, 161, 242);
+      transform: translateY(-1px);
+    }
+  }
+}
+
+.login {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.formfield {
+  &__input {
+    padding: 1rem;
+    width: 30rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s ease-in-out;
+    &:focus {
+      outline: none;
+      border-bottom: 3.5px solid rgb(29, 161, 242);
+    }
+  }
+
+  &__button {
+    background: rgb(29, 161, 242);
+    width: 30rem;
+    padding: 1rem;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+}
